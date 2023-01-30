@@ -1,0 +1,1136 @@
+*{
+  box-sizing: border-box;
+}
+
+
+
+/* header section ////////////////////////////////////////////////////////////////////*/
+
+.header{
+  height: 7rem;
+  padding: .5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+  border-bottom: 1px solid black;
+}
+
+.header .user{
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-right: 2rem;
+  width: 30%;
+}
+
+.UserDetails{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.avtaar{
+  height: 4rem;
+  width: 4rem;
+  border: 1px solid black;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.avtaar i{
+  font-size: 3rem;
+}
+
+.btn-logout{
+text-align: center;
+font-size: 1rem;
+}
+
+.btn-logout button{
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+
+
+.btn-logout i{
+  font-size: 1rem;
+  border: 1px solid black;
+  border-radius: 1rem;
+  padding: .5rem;
+  outline: none;
+}
+
+.btn-logout i:hover{
+  font-size: 1rem;
+  color: white;
+  background-color: black;
+  outline: none;
+}
+
+.logo{
+  background-color: white;
+  border-radius: 1rem;
+  margin: 0 2rem;
+}
+
+.con-logo img{
+  height: 7rem;
+}
+
+.logo img{
+  height: 5rem;
+}
+
+.leaves{
+  height: 10rem;
+  padding: .5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: black;
+  border-bottom: 1px solid black;
+}
+
+.user-leaves{
+  display: none;
+}
+
+
+/* signup and login ////////////////////////////////////////////////////////////////////*/
+
+
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.head{
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.sub-head{
+  font-size: 2rem;
+  text-align: center;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 5rem;
+  color: black;
+  height: 95vh;
+  width: 80%;
+  margin-top: 1rem;
+  border-radius: 2rem;
+  box-shadow: 5px 10px 18px black;
+}
+
+
+
+.part-2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form input{
+  width: 15rem;
+  margin: 1rem;
+  border: none;
+  outline: none;
+}
+
+
+
+.ip:hover{
+  border: 1px solid black;
+  padding:  0 .5rem;
+}
+
+
+.btn{
+  width: 10rem;
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+  font-weight: bolder;
+  padding: .2rem;
+  margin-top: 1rem;
+  background-color: white;
+}
+
+.btn:hover{
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
+
+
+.background img{
+  height: 15rem;
+}
+
+.link{
+  text-decoration: none;
+  margin-top: 1rem;
+  color: rgba(0, 0, 255, 0.664);
+}
+
+.link:hover{
+  color: blue;
+}
+
+
+
+
+/* form section ////////////////////////////////////////////////////////////////////*/
+
+.home{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-content{
+  height: 100%;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  margin: 1rem;
+  padding: 3rem;
+  border: 1px solid black;
+  border-radius: 2rem;
+  box-shadow: 5px 10px 15px black;
+}
+
+.form-content .heading{
+  text-align: center;
+}
+
+
+.h-form{
+  height: 100%;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.h-form .f-ip{
+  display: inline-block;
+}
+
+.h-form .label{
+  text-align: center;
+  margin-left: 1rem;
+  font-weight: bold;
+}
+
+.h-form input{
+  margin: 1rem 1rem;
+  border: 1px solid black;
+  width: 30rem;
+  margin: .5rem;
+  padding: .4rem;
+  border-radius: .4rem;
+}
+
+.radio-section {
+  border: 1px solid red;
+  border-radius: .4rem;
+  width: 0;
+  margin: 0;
+  padding: 0;
+}
+.radio-section-label{
+margin: 0; 
+}
+
+
+.fas {
+  font-weight: 0px;
+}
+
+.h-form textarea{
+  margin: 1rem 1rem;
+  border: 1px solid black;
+  width: 30rem;
+  margin: .5rem;
+  padding: .4rem;
+  border-radius: .4rem;
+  height: 2rem;
+}
+
+select{
+  margin: 1rem 1rem;
+  border: 1px solid black;
+  width: 30rem;
+  margin: .5rem;
+  padding: .4rem;
+  border-radius: .4rem;
+}
+
+option{
+  padding: 1rem;
+  margin: 1rem;
+}
+
+
+.f-bottom{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+
+
+.h-btn{
+  height: 2rem;
+  width: 15rem;
+  padding: .2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+  font-weight: .5rem;
+  color: black;
+  cursor: pointer;
+  align-items: center;
+  background-color: white;
+}
+
+.h-btn:hover{
+  color: white;
+  background-color: black;
+  font-weight: bold;
+}
+
+
+
+
+
+/* table section //////////////////////////////////////////////////////////////////// */
+
+/* .ShowDate{
+  display: none;
+} */
+.table-content{
+  height: 100vh;
+  overflow: scroll;
+  display: flex;
+  justify-content: center;
+}
+
+table{
+  width: 100%;
+  margin: 1rem;
+}
+
+
+table, th, td {
+  max-height: 1.5rem;
+  max-width:100%;
+  white-space:nowrap;
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+
+.t-th1{
+  height: 5rem;
+  width: 100%;
+  color: white;
+  font-size: 3rem;
+  background-color: black;
+}
+
+.t-th2{
+  height: 5rem;
+  width: 100%;
+  color: red;
+  font-size: 3rem;
+  background-color: black;
+}
+
+.next{
+  color: white;
+}
+
+
+.t-th{
+  max-width:100%;
+  white-space:nowrap;
+  padding: 1rem;
+  width: 8rem;
+  text-align: center;
+  background-color: rgba(69, 64, 64, 0);
+}
+
+
+.t-subtd{
+  max-width:100%;
+  white-space:nowrap;
+  text-align: center;
+  padding: 0 8rem; 
+  color: whitesmoke; 
+  background-color: black;
+}
+
+td{
+  padding: 0 1rem;
+  width: auto;
+  text-align: center;
+}
+
+.t-sbtn{
+  width: 5rem;
+  color: whitesmoke;
+  background-color: green;
+  padding: .5rem;
+  border-radius: .5rem;
+}
+
+
+.btn-approve{
+  height: 1rem;
+  width: 2rem;
+  border-radius: 1rem;
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: row;
+  color: green;
+  align-items: center;
+}
+
+.btn-decline{
+  height: 1rem;
+  width: 2rem;
+  border-radius: 1rem;
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: row;
+  color: red;
+  align-items: center;
+}
+
+.btn-hold{
+  height: 1rem;
+  width: 2rem;
+  border-radius: 1rem;
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: row;
+  color: yellow;
+  align-items: center;
+}
+
+.edit-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.2rem;
+}
+
+.Edit{
+  height: 100%;
+  width: 100%;
+  color: black;
+  cursor: pointer;
+  align-items: center;
+  border: none;
+  background-color: white;
+}
+
+.btn-action{
+  outline: none;
+  border: none;
+  color: black;
+  background-color: white;
+  cursor: pointer;
+}
+
+
+
+/* POPUP section ////////////////////////////////////////////////////////////////////*/
+
+
+.popup{
+  position: fixed;
+  top: 5rem;
+  left: 20rem;
+  width: 50%;
+  height: 50%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 2rem;
+  box-shadow: 5px 10px 18px black;
+  background-color: rgba(0, 0, 0, .5);
+  border: 1px solid rgba(43, 43, 43, 0.568);
+}
+
+
+.popup-inner{
+  height: 100%;
+  width: 100%;
+  position: relative;
+  padding: 2rem;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.close-btn{
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background-color: black;
+  color: white;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+}
+
+.pop-ip{
+  margin: 1rem 1rem;
+  border: 1px solid black;
+  width: 30rem;
+  margin: .5rem;
+  padding: .4rem;
+  border-radius: .4rem;
+}
+
+.pop-ip option{
+  padding: 1rem;
+}
+
+.p-btn{
+  width: 10rem;
+  position: absolute;
+  top: 10rem;
+  left: 15rem;
+  outline: none;
+  padding: .2rem;
+  cursor: pointer;
+  margin-top: 1rem;
+  font-weight: bolder;
+  border-radius: 10px;
+}
+
+.p-btn:hover{
+  color: white;
+  background-color: black;
+}
+
+
+/* media queries  /////////////////////////////////////////////////////////////////////////////////*/
+
+
+@media (max-width:1210px) 
+{
+
+
+  html{
+    font-size: 60%;
+  }
+
+  .header{
+    height: 10rem;
+  }
+
+  .heading{
+    font-size: 3rem;
+  }
+
+  .label{
+    font-size: 2rem;
+  }
+
+  .form-content{
+    height: 60rem;
+    width:90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;    
+    /* background-color: red; */
+  }
+
+  
+  .home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:1rem 4rem;
+  }
+
+  .h-btn{
+    width: 20rem;
+    height: 3rem; 
+  }
+
+  .f-ip input{
+    width: 45rem;
+    margin: 1rem;
+  }
+
+  .t-th{
+    font-size: 1.5rem;
+  }
+
+  .t-subtd{
+    font-size: 1.5rem;
+  }
+
+  .App{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20rem;
+    margin-top: 5rem;
+    height: 60rem;
+  }
+
+  .ip{
+    margin: 1rem 0;
+  }
+  
+  .ip input{
+    width: 25rem;
+    padding: 0 2rem;
+  }
+
+  .btn{
+    margin-top: 2rem;
+    width: 20rem;
+  }
+
+  .logo img{
+    height: 8rem;
+  }
+
+  .background img{
+    height: 30rem;
+  }
+
+  .link{
+    font-size: 2rem;
+  }
+
+
+}
+
+
+@media(max-width:1126px) {
+
+  html{
+    font-size: 55%;
+  }
+
+  .header{
+    height: 10rem;
+  }
+  
+
+
+  .heading{
+    font-size: 3rem;
+  }
+
+  .label{
+    font-size: 2rem;
+  }
+
+  .form-content{
+    height: 60rem;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;  
+    /* background-color: yellow;   */
+  }
+  
+  .home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:1rem 4rem;
+  }
+
+  .h-btn{
+    width: 20rem;
+    height: 3rem; 
+  }
+
+  .f-ip input{
+    width: 45rem;
+    margin: 1rem;
+  }
+
+  .t-th{
+    font-size: 1.5rem;
+  }
+
+  .t-subtd{
+    font-size: 1.5rem;
+  }
+
+  .App{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin-top: 5rem;
+    height: 50rem;
+    padding: 0 2rem;
+  }
+
+  .ip{
+    margin: 1rem 0;
+  }
+  
+  .ip input{
+    width: 25rem;
+    padding: 0 2rem;
+  }
+
+  .btn{
+    margin-top: 2rem;
+    width: 20rem;
+  }
+
+  .logo img{
+    height: 8rem;
+  }
+
+  .background img{
+    height: 20rem;
+  }
+
+  .link{
+    font-size: 1.5rem;
+  }
+
+}
+
+
+
+
+@media (min-width: 768px) and (max-width: 991px){
+  html{
+    font-size: 45%;
+  }
+
+  .header{
+    height: 10rem;
+  }
+  
+
+
+  .heading{
+    font-size: 3rem;
+  }
+
+  .label{
+    font-size: 2rem;
+  }
+
+  .form-content{
+    height: 60rem;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 3rem;  
+    /* background-color: green;   */
+  }
+  
+  .home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:1rem 4rem;
+  }
+
+  .h-btn{
+    width: 20rem;
+    height: 3rem; 
+  }
+
+  .f-ip input{
+    width: 30rem;
+    margin: 1rem;
+  }
+
+  .t-th{
+    font-size: 1.5rem;
+  }
+
+  .t-subtd{
+    font-size: 1.5rem;
+  }
+
+  .App{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin-top: 5rem;
+    height: 50rem;
+    padding: 0 2rem;
+  }
+
+  .ip{
+    margin: 1rem 0;
+  }
+  
+  .ip input{
+    width: 25rem;
+    padding: 0 2rem;
+  }
+
+  .btn{
+    margin-top: 2rem;
+    width: 20rem;
+  }
+
+  .logo img{
+    height: 8rem;
+  }
+
+  .background img{
+    height: 20rem;
+  }
+
+  .link{
+    font-size: 1.5rem;
+  }
+
+  .ip i{
+    font-size: 1.5rem;
+  }
+
+}
+
+@media (min-width: 651px) and (max-width: 767px) 
+{
+
+  html{
+    font-size: 45%;
+  }
+
+  .header{
+    height: 10rem;
+  }
+  
+
+
+  .heading{
+    font-size: 3rem;
+  }
+
+  .label{
+    font-size: 2rem;
+  }
+
+  .form-content{
+    height: 60rem;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;  
+    /* background-color: black;   */
+  }
+  
+  .home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:1rem 4rem;
+  }
+
+  .h-btn{
+    width: 20rem;
+    height: 3rem; 
+  }
+
+  .f-ip input{
+    width: 35rem;
+    margin: 1rem;
+  }
+
+  .t-th{
+    font-size: 1.5rem;
+  }
+
+  .t-subtd{
+    font-size: 1.5rem;
+  }
+
+  .App{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin-top: 5rem;
+    height: 50rem;
+    padding: 0 2rem;
+  }
+
+  .ip{
+    margin: 1rem 0;
+  }
+  
+  .ip input{
+    width: 25rem;
+    padding: 0 2rem;
+  }
+
+  .btn{
+    margin-top: 2rem;
+    width: 20rem;
+  }
+
+  .logo img{
+    height: 8rem;
+  }
+
+  .background img{
+    height: 20rem;
+  }
+
+  .link{
+    font-size: 1.5rem;
+  }
+
+
+}
+
+@media (min-width: 300px) and (max-width: 651px){
+  html{
+    font-size: 40%;
+  }
+
+  .form-content{
+    height: auto;
+    padding: 1rem;
+    /* background-color: blue; */
+  }
+
+  .heading{
+    font-size: 2rem;
+    margin: 0;
+  }
+
+  .form-content .label{
+    font-size: 2rem;
+  }
+
+  .f-ip input{  
+    height: 3rem;
+    width: auto;
+  }
+
+  .f-ip .From{
+    width: 27rem;
+  }
+  .f-ip .To{
+    width: 27rem;
+  }
+
+  .App{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .content{
+    height: auto;
+    width: 90%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ip i{
+    font-size: 1.5rem;
+  }
+
+  .link{
+    font-size: 1.5rem;
+  }
+}
+
+
+@media (max-width:300px){
+
+  html{
+      font-size: 30%;
+  }
+
+  .form-content{
+    /* background-color: pink; */
+    height: auto;
+    width: auto;
+    padding: 1rem;
+  }
+
+    
+  .content{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0rem;
+    height: 80rem;
+    width: 90%;
+    padding: 1rem;
+  }
+
+
+  .ip{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .ip input{
+    width: 90%;
+  }
+
+  .con-logo img{
+    height: 9rem;
+  }
+
+  .h-btn{
+    font-size: 2rem;
+    height: 4rem;
+    width: 30rem;
+    padding: .5rem;
+  }
+
+  .sub-head{
+    font-size: 3rem;
+  }
+
+  .link{
+    font-size: 2rem;
+  }
+
+  .ip i{
+    font-size: 2rem;
+  }
+
+} 
+
+@media (min-width:1920px){
+
+  .home{
+    height: 30rem;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .form-content{
+    height: auto;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    padding: 0
+  }
+
+  .App{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30rem;
+    width: 70%;
+  }
+
+  .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    padding: 0;
+    height: 30rem;
+    width: 80%;
+  } 
+
+  .btn-approve{
+    height: 2rem;
+    width: 2rem;
+    padding: .2rem;
+    font-size: 5rem;
+  }
+
+}
